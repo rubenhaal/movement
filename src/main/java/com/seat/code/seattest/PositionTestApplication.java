@@ -11,13 +11,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class SeattestApplication implements CommandLineRunner {
+public class PositionTestApplication implements CommandLineRunner {
 
 	private static Logger LOG = LoggerFactory
-			.getLogger(SeattestApplication.class);
+			.getLogger(PositionTestApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(SeattestApplication.class, args);
+		SpringApplication.run(PositionTestApplication.class, args);
 	}
 
 	@Override
